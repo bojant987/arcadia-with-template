@@ -1,0 +1,20 @@
+Nekoliko instrukcija za organizaciju artikala:
+
+1. Svaki artikal sa klasom "product" treba da ima data-id atribut. 
+   Bitno je samo da data-id atribut bude jedinstven medu artiklima, možete da generišete i uuid.
+
+2. Pošto je na dizajnu slika koja se prikazuje u modalu razlicita od slike u artiklu, 
+   slike koje ce se prikazivati u modalu za pregled artikala treba da budu nazvane
+   isto kao i slike u artiklima sa dodatim "-lg" na kraju. Na primer veca(ili drugacija) 
+   verzija slike "kafa.jpg" treba da se zove "kafa-lg.jpg". Ako slike ipak trebaju da budu iste
+   u liniji $(".single-product-modal img").attr("src", newSrc); zamenite newSrc sa imageSrc.
+   Slike sa dizajna nemaju providnu pozadinu, ukoliko treba da koristite .png slike u main.js
+   u funkciji setNewProduct ima varijabla imageSrc gde možete da promenite ekstenziju.
+
+3. Ako treba da precrtate neku cenu dodajte div-u koji je sadrži klasu "crossed". Ubacio sam i dva if/else bloka
+   u setNewProduct koja automatski precrtavaju cenu u modalu ako je precrtana cena u artiklu na stranici.
+   Zakomentarisao sam ih, jer nisam siguran da ce vam ovo biti potrebno.
+
+4. Sa dizajna se ne vidi kako se racuna ukupna cena koja je u modalu, pa sam u setNewProduct ubacio
+   dve linije koda(totalPrice) koje podešavaju totalnu cenu na onu koja nije precrtana. Zakomentarisao sam ih,
+   jer opet nisam siguran da li ce vam biti potrebno.

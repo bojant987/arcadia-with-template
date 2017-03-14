@@ -1,0 +1,22 @@
+<div class="col-sm-4 col-md-3 col-lg-5ths">
+    <article class="product" data-id="{{id}}">
+        <p class="product-id">Šifra artikla: <span>{{code}}</span></p>
+        <div class="prices">
+          <div class="row">
+              <div class="col-xs-6 text-left product-price">
+                  <p>Sa PDV-om</p>
+                  <p>{{price}}</p>
+              </div>
+              <div class="col-xs-6 text-right product-price">
+                  <p>Bez PDV-a</p>
+                  <p>{{price}}</p>
+              </div>
+          </div>
+        </div>
+        <figure class="open-modal" data-toggle="modal" data-target=".single-product-modal">
+            <img src="img/{{img}}" alt="product">
+        </figure>
+        <p class="product-name">{{name}}</p>
+        <a href="#" class="text-uppercase add-to-cart">dodaj u korpu <span class="fa fa-plus"></span></a>
+    </article>
+</div>  <!-- col -->

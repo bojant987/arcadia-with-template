@@ -1,0 +1,220 @@
+@media (min-width: 768px) {
+    /* ---- global styles ---- */
+    h1 {
+        font-size: 60px;
+    }
+    /* ---- upper header styles ---- */
+    .upper-header ul {
+        float: right;
+        text-align: left;
+    }
+    /* ---- lower header styles ---- */
+    .lower-header .search {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .lower-header .shopping-cart {
+        text-align: right;
+    }
+    .lower-header .shopping-cart .buttons {
+        margin: 0 0 10px;
+        display: inline-block;
+        transform: translateX(4px);
+    }
+    .lower-header .shopping-cart .custom-select {
+        display: inline-block;
+    }
+    /* ---- main nav styles ---- */
+    .navbar-default .navbar-brand {
+        display: none;
+    }
+    .navbar-default .navbar-collapse {
+        margin-top: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .navbar-default .navbar-collapse .navbar-nav li {
+        margin-right: 60px;
+    }
+    .navbar-default .navbar-collapse .navbar-nav li:last-of-type {
+        margin-right: 0;
+    }
+    /* ---- login and register modals styles ---- */
+    .login-modal .login {
+        margin-bottom: 0;
+    }
+    .modal .register-btn {
+        top: 143px;
+    }
+    /* ---- product banner styles ---- */
+    .product-banner ul li {
+        font-size: 14px;
+    }
+    .product-nav-collapse {
+        display: none;
+    }
+    .product-banner .product-menu {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .product-banner .product-submenu {
+        width: 190px;
+        padding: 20px 30px;
+        position: absolute;
+        top: -20px;
+        left: 300px;
+        vertical-align: top;
+        display: none;
+        border-top: 1px solid #f0e2d0;
+        border-bottom: 1px solid #f0e2d0;
+        background-color: #fff;
+    }
+    /* ---- on sale styles ---- */
+    /* ---- partners styles ---- */
+    /* ---- footer styles ---- */
+    footer .footer-info li {
+        display: inline-block;
+        border-right: none;
+        border-right: 1px solid #737373;
+    }
+    footer .footer-info li:last-of-type {
+        margin-top: 10px;
+    }
+    /* ---- products filter styles ---- */
+    .products-filter .main-filter label, .products-filter .sub-categories>label, .products-filter .category {
+        display: inline-block;
+        margin-right: 35px;
+    }
+    .products-filter .category label {
+        display: block;
+    }
+    .products-filter .sub-categories {
+        padding: 18px 0;
+    }
+    .products-filter .sub-categories .category p {
+        border: 1px solid #CECECC;
+        padding-right: 10px;
+    }
+    /* ---- all products styles ---- */
+    .breadcrumb li a {
+        font-size: 14px;
+    }
+    .breadcrumb li:first-of-type {
+        padding: 0 36px 0 24px;
+        margin-right: 27px;
+    }
+    .breadcrumb li:nth-of-type(2) {
+        margin-right: 40px;
+    }
+    /* ---- single product modal styles ---- */
+    /* ---- about banner styles ---- */
+    /* ---- about us styles ---- */
+    /* ---- map styles ---- */
+    /* ---- contact styles ---- */
+}
+
+@media (min-width: 992px) {
+    /* ---- global styles ---- */
+    /* ---- upper header styles ---- */
+    /* ---- lower header styles ---- */
+    .lower-header {
+        padding-bottom: 80px;
+    }
+    .lower-header .shopping-cart .custom-select {
+        transform: translateX(4px);
+    }
+    .lower-header .shopping-cart {
+        float: right;
+    }
+    .lower-header .shopping-cart .buttons {
+        vertical-align: top;
+        transform: translate(-2px, -1px);
+    }
+    .lower-header .shopping-cart .select-dropdown {
+        left: 4px;
+    }
+    .lower-header .shopping-cart .custom-select {
+        margin: 0;
+    }
+    .lower-header .logo {
+        width: auto;
+    }
+    /* ---- main nav styles ---- */
+    /* ---- login and register modals styles ---- */
+    /* ---- product banner styles ---- */
+    /* ---- on sale styles ---- */
+    /* ---- partners styles ---- */
+    /* ---- footer styles ---- */
+    /* ---- products filter styles ---- */
+    .products-filter .filter-collapse {
+        display: none;
+    }
+    .products-filter .filter {
+        display: block;
+    }
+    /* ---- all products styles ---- */
+    /* ---- single product modal styles ---- */
+    /* ---- about banner styles ---- */
+    /* ---- about us styles ---- */
+    /* ---- map styles ---- */
+    /* ---- contact styles ---- */
+}
+
+@media (min-width: 1200px) {
+    /* ---- global styles ---- */
+    /* ---- upper header styles ---- */
+    /* ---- lower header styles ---- */
+    /* ---- main nav styles ---- */
+    /* ---- login and register modals styles ---- */
+    /* ---- product banner styles ---- */
+    .product-banner .banner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 54%;
+        margin-bottom: 0;
+    }
+    /* ---- on sale styles ---- */
+    /* ---- partners styles ---- */
+    /* ---- footer styles ---- */
+    /* ---- products filter styles ---- */
+    /* ---- all products styles ---- */
+    /* ---- single product modal styles ---- */
+    /* ---- about banner styles ---- */
+    /* ---- about us styles ---- */
+    /* ---- map styles ---- */
+    /* ---- contact styles ---- */
+}
+
+@media (min-width: 1600px) {
+    /* ---- products filter styles ---- */
+    .products-filter {
+        max-width: 250px;
+        padding-left: 50px;
+        position: absolute;
+        top: 70px;
+        left: -260px;
+    }
+    .product-filter .sub-categories {
+        padding: 18px 0;
+    }
+    .products-filter .main-filter label, .products-filter .sub-categories>label, .products-filter .category {
+        display: block;
+        margin-right: 0;
+    }
+    .products-filter .sub-categories .category p {
+        border: none;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1990px) {
+    /* ---- product banner styles ---- */
+    .product-banner .banner {
+        width: 45%;
+    }
+}
